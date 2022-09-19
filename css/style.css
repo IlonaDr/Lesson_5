@@ -1,0 +1,211 @@
+@font-face {
+   font-family: "BitterPro";
+   src: url("../fonts/BitterPro/BitterPro-Black.woff2") format("woff2"), url("../fonts/BitterPro/BitterPro-Black.woff") format("woff");
+   font-display: swap;
+   font-weight: 900;
+   font-style: normal;
+}
+@font-face {
+   font-family: "BitterPro";
+   src: url("../fonts/BitterPro/BitterPro-Bold.woff2") format("woff2"), url("../fonts/BitterPro/BitterPro-Bold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: "BitterPro";
+   src: url("../fonts/BitterPro/BitterPro-Italic.woff2") format("woff2"), url("../fonts/BitterPro/BitterPro-Italic.woff") format("woff");
+   font-display: swap;
+   font-weight: 600;
+   font-style: normal;
+}
+@font-face {
+   font-family: "BitterPro";
+   src: url("../fonts/BitterPro/BitterPro-Medium.woff2") format("woff2"), url("../fonts/BitterPro/BitterPro-Medium.woff") format("woff");
+   font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+}
+@font-face {
+   font-family: "BitterPro";
+   src: url("../fonts/BitterPro/BitterPro-Regular.woff2") format("woff2"), url("../fonts/BitterPro/BitterPro-Regular.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "FreeMono";
+   src: url("../fonts/FreeMono/FreeMono.woff2") format("woff2"), url("../fonts/FreeMono/FreeMono.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+   font-family: "FreeMono";
+   src: url("../fonts/FreeMono/FreeMonoBold.woff2") format("woff2"), url("../fonts/FreeMono/FreeMonoBold.woff") format("woff");
+   font-display: swap;
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: "FreeMono";
+   src: url("../fonts/FreeMono/FreeMonoBoldOblique.woff2") format("woff2"), url("../fonts/FreeMono/FreeMonoBoldOblique.woff") format("woff");
+   font-display: swap;
+   font-weight: 600;
+   font-style: normal;
+}
+@font-face {
+   font-family: "FreeMono";
+   src: url("../fonts/FreeMono/FreeMonoOblique.woff2") format("woff2"), url("../fonts/FreeMono/FreeMonoOblique.woff") format("woff");
+   font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+}
+
+header{
+   font-family: "BitterPro-Black", "BitterPro", Arial, serif;
+   font-weight: 700;
+   color: darkcyan;
+   font-size: 40px;
+   text-align: center;
+   margin: 30px;
+}
+footer{
+   font-family: "FreeMonoBoldOblique", "FreeMono", Arial, sans-serif;
+   font-weight: 600;
+   color: black;
+   font-size: 30px;
+   text-align: right;
+}
+#top{
+   font-family: "BitterPro-Italic", "BitterPro", Italic, serif;
+   font-weight: 600;
+   color: rgba(50, 35, 136, 0.829);
+   font-size: 25px;
+   text-align: left;
+   margin: 10px;
+   padding-left: 11%;
+   text-transform: capitalize;
+}
+li.odd{
+   font-family: "FreeMonoOblique", "FreeMono", Georgia, serif;
+   font-weight: 500;
+   color: rgba(161, 32, 178, 0.897);
+   font-size: 20px;
+   text-decoration: underline;
+   padding-left: 10%;
+}
+li.even{
+   font-family: "BitterPro-Regular", "BitterPro", Arial, sans-serif;
+   font-weight: 400;
+   color: rgba(51, 3, 58, 0.897);
+   font-size: 20px;
+   text-decoration: line-through;
+   padding-left: 15%;
+}
+ul{
+   margin-bottom: 30px;
+}
+div{
+   line-height: 20px;
+   letter-spacing: 2px;
+   word-spacing: 3px;
+}
+#bottom1,
+#bottom3,
+#bottom5,
+#bottom7{
+   font-family: "BitterPro-Black", "BitterPro", monospace;
+   font-weight: 900;
+   color: darkred;
+   text-decoration: overline;
+}
+#bottom2,
+#bottom4,
+#bottom6{
+   font-family: "FreeMonoBold", "FreeMono", monospace;
+   font-weight: 700;
+   color: darkmagenta;
+   text-decoration: overline;
+}
+.test{
+   margin: 5% 25% 5% 10%;
+   width: 300px;
+}   
+
+.red{
+   color: red;
+   margin: 0% 20% 5% 10%;
+   text-shadow: 1px 1px 1px black;
+}
+.test2{
+   width: 320px;
+   margin: 0% 25% 5% 20%;
+}
+.brown{
+   color: brown;
+   margin: 0% 20% 5% 20%;
+   text-shadow: 1px 1px 1px rgb(205, 24, 24);
+}
+.test3{
+   width: 320px;
+   margin: 0% 25% 5% 30%;
+}
+.green{
+   color: green;
+   margin: 0% 20% 5% 30%;
+   text-shadow: 1px 1px 1px chartreuse;
+}
+.test4{
+   width: 320px;
+   margin: 0% 25% 5% 40%;
+}
+.dark-yellow{
+   color: darkorange;
+   margin: 0% 20% 5% 40%;
+   text-shadow: 1px 1px 1px rgb(201, 64, 18);
+}
+.test5{
+   width: 320px;
+   margin: 0% 25% 5% 50%;
+}
+.pink{
+   color: pink;
+   margin: 0% 20% 5% 50%;
+   text-shadow: 1px 1px 1px rgb(242, 99, 216);
+}
+.test6{
+   width: 300px;
+   margin: 0% 25% 5% 60%;
+}
+.blue{
+   color: blue;
+   margin: 0% 20% 5% 60%;
+   text-shadow: 1px 1px 1px rgb(4, 23, 84);
+}
+.test7{
+   width: 300px;
+   margin: 0% 25% 5% 70%;
+}
+.orange{
+   color: orange;
+   margin: 0% 20% 5% 70%;
+   text-shadow: 1px 1px 1px rgb(68, 43, 14);
+}
+.violet{
+   color: violet;
+   text-decoration: line-through;
+   text-transform: uppercase;
+   padding: 0 0 0 50%;
+}
+.test8{
+   width: 400px;
+   margin: 0% 0% 0% 43%;
+}
+.button{
+   font-family: "FreeMono", sans-serif;
+   font-weight: 400;
+   color: lime;
+   text-transform: lowercase;
+   text-shadow: 1px 1px 2px rgb(5, 212, 50);
+}
